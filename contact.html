@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | MILAN Fabrics, Textiles &amp; Tailoring</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a href="index.html" class="wordmark">
+        <span class="wordmark-main">MILAN</span>
+        <span class="wordmark-sub">Fabrics · Textiles · Tailoring</span>
+      </a>
+
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Collection &amp; Tailoring</a></li>
+          <li><a href="contact.html" class="current">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="hours-badge" id="hoursBadge">
+        <span class="dot"></span>
+        <span class="hours-text">10:00 AM – 10:00 PM</span>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false">Menu</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-top">
+      <div class="wrap">
+        <span class="kicker">Visit or Message</span>
+        <h1>Find Us on Manjanakkara Street</h1>
+        <p class="intro-text">
+          Walk in any day between 10:00 AM and 10:00 PM to feel the fabrics in person, get measured, or browse our S–4XL readymades.
+        </p>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="wrap split-grid fade-up" style="align-items: start;">
+        <div class="panel">
+          <span class="kicker">Showroom Details</span>
+          <h3>MILAN Fabrics, Textiles &amp; Tailoring</h3>
+
+          <ul class="info-list">
+            <li>
+              <span class="info-key">Proprietor</span>
+              <span>Shajakhan A</span>
+            </li>
+            <li>
+              <span class="info-key">Address</span>
+              <span>Manjanakkara Street, Near Malligai Paper Store, Next to Canara Bank ATM, Cumbum, Tamil Nadu</span>
+            </li>
+            <li>
+              <span class="info-key">Hours</span>
+              <span>10:00 AM – 10:00 PM (All Days)</span>
+            </li>
+            <li>
+              <span class="info-key">Phone &amp; WhatsApp</span>
+              <a href="tel:+919486653515" style="color:var(--sand);">+91 94866 53515</a>
+            </li>
+          </ul>
+
+          <div class="actions">
+            <a href="tel:+919486653515" class="btn btn-warm">Call Store</a>
+            <a href="https://wa.me/919486653515" target="_blank" rel="noopener" class="btn btn-ghost">WhatsApp</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Manjanakkara+Street+Cumbum+Tamil+Nadu" target="_blank" rel="noopener" class="btn btn-ghost">Directions</a>
+          </div>
+
+          <iframe
+            class="map-box"
+            title="MILAN Fabrics Cumbum Map"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=Manjanakkara+Street+Cumbum+Tamil+Nadu&output=embed">
+          </iframe>
+        </div>
+
+        <div class="panel">
+          <span class="kicker">Send a Note</span>
+          <h3>Ask About Fabrics, Sizes or Tailoring</h3>
+          <p style="color:var(--muted); margin:8px 0 22px; font-size:0.92rem;">
+            Fill in what you’re looking for and hand it straight to our counter on WhatsApp.
+          </p>
+
+          <form id="contactForm" novalidate>
+            <div class="field">
+              <label for="custName">Your Name</label>
+              <input type="text" id="custName" placeholder="Enter your name" required>
+            </div>
+
+            <div class="field">
+              <label for="custPhone">Phone Number</label>
+              <input type="tel" id="custPhone" placeholder="e.g. 98765 43210" required>
+            </div>
+
+            <div class="field">
+              <label for="custService">Department</label>
+              <select id="custService">
+                <option value="Fabrics & Custom Tailoring">Fabrics &amp; Custom Tailoring</option>
+                <option value="Readymade Shirts / Pants">Readymade Shirts / Pants</option>
+                <option value="Men's T-Shirts (S to 4XL)">Men's T-Shirts (S to 4XL)</option>
+                <option value="Track Suits / Activewear">Track Suits / Activewear</option>
+                <option value="Men's Innerwear">Men's Innerwear</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="custNotes">Message (Optional)</label>
+              <textarea id="custNotes" rows="4" placeholder="Example: Looking for Chinese-collared linen stitching or 3XL Henley T-shirts..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-warm" style="width:100%;">Prepare Inquiry</button>
+            <div id="formStatus" class="form-status" role="status"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bottom-bar">
+    <div class="wrap">
+      <div class="footer-cols">
+        <div>
+          <div class="wordmark-main" style="font-size:1.5rem;">MILAN</div>
+          <p style="color:var(--muted); margin-top:10px; max-width:320px; font-size:0.9rem;">
+            Fabrics, Textiles &amp; Tailoring — Cumbum’s trusted men’s clothing and tailoring showroom for over 40 years.
+          </p>
+        </div>
+
+        <div>
+          <div class="footer-head">Explore</div>
+          <ul class="footer-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Collection &amp; Tailoring</a></li>
+            <li><a href="contact.html">Contact &amp; Directions</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-head">Showroom</div>
+          <ul class="footer-list">
+            <li>Manjanakkara Street, Near Malligai Paper Store, Next to Canara Bank ATM, Cumbum</li>
+            <li>Daily: 10:00 AM – 10:00 PM</li>
+            <li><a href="tel:+919486653515">+91 94866 53515</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-note">
+        <span>&copy; 2026 MILAN Fabrics, Textiles &amp; Tailoring · Proprietor: Shajakhan A</span>
+        <span>Cumbum, Tamil Nadu</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
